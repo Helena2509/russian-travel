@@ -1,0 +1,19 @@
+.header__lang_en {
+    margin-right: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__lang_en:hover {
+    opacity: 0.5;
+    text-decoration-color: cornflowerblue;
+    transition-property: opacity;
+    transition-property: text-decoration-color;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+}

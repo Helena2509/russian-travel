@@ -1,0 +1,7 @@
+.video_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 456px);
+    justify-items: center;
+    grid-column-gap: 16px;
+    margin: 0 48px;
+}

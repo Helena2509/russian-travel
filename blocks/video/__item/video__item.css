@@ -1,0 +1,14 @@
+.video__item {
+    max-width: 456px;
+height: 288px;
+margin: 4px 0;
+}
+
+.video__item:hover {
+    opacity: 0.2;
+    background-color: black;
+    transition-property: opacity;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+}

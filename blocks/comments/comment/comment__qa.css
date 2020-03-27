@@ -1,0 +1,6 @@
+.comment__qa {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0;
+}

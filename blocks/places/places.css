@@ -1,0 +1,19 @@
+@import url(./place/place__image.css);
+
+@import url(./place/place__paragraph.css);
+
+@import url(./place/place__paragraphs.css);
+
+@import url(./place/place__title.css);
+
+@import url(./place/place__website.css);
+
+@import url(./place/place__website_url.css);
+
+@import url(./place/place__website_url-heading.css);
+
+@import url(./place/place.css);
+
+.places {
+    margin: 0 48px;
+}

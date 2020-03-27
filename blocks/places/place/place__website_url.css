@@ -1,0 +1,19 @@
+.place__website_url {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    margin: 0;
+    color: #FFFFFF;
+    }
+    
+.place__website_url:hover {
+    opacity: 0.5;
+    text-decoration-color: cornflowerblue;
+    transition-property: opacity;
+    transition-property: text-decoration-color;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    }

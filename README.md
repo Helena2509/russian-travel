@@ -21,3 +21,12 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+/* kalegin-michail-179870-unsplash */
+
+position: absolute;
+width: 928px;
+height: 554px;
+left: 48px;
+top: 505px;
+
+background: url(kalegin-michail-179870-unsplash.jpg);

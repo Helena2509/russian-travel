@@ -1,0 +1,6 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 296px;
+}
