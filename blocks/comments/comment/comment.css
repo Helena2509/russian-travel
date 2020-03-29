@@ -4,3 +4,36 @@
     justify-content: start;
     max-width: 296px;
 }
+
+@media screen and (max-width : 769px) {
+    .comment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 382px;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .comment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .comment {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 288px;
+    }
+}

@@ -2,3 +2,24 @@
     position: relative;
     top: 150px;
 }
+
+@media screen and (max-width : 769px) {
+    .cover__subtitles {
+        position: relative;
+        top: 50px;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .cover__subtitles {
+        position: relative;
+        top: 20px;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .cover__titles {
+        position: relative;
+        top: 10px;
+    }
+}

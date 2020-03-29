@@ -9,3 +9,27 @@
     margin: 0;
     z-index: 1;
     }
+
+    @media screen and (max-width : 769px) {
+        .cover__title {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 35px;
+        }
+    }
+
+    @media screen and (max-width : 376px) {
+        .cover__title {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 35px;
+        }
+    }
+
+    @media screen and (max-width : 321px) {
+        .cover__title {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 35px;
+        }
+    }

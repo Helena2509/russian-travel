@@ -17,3 +17,21 @@
 .places {
     margin: 0 48px;
 }
+
+@media screen and (max-width : 769px) {
+    .places {
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .places {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .places {
+        margin: 0;
+    }
+}

@@ -12,3 +12,27 @@ margin: 4px 0;
     transition-duration: 0.7s;
     transition-timing-function: linear;
 }
+
+@media screen and (max-width : 769px) {
+    .video__item {
+        width: 352px;
+        height: 200px;
+        margin: 4px 0;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .video__item {
+        max-width: 343px;
+    height: 200px;
+    margin: 4px 0;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .video__item {
+        max-width: 288px;
+    height: 192px;
+    margin: 4px 0;
+    }
+}

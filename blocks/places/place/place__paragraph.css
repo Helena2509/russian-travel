@@ -8,3 +8,39 @@
     color: #FFFFFF;
     margin: 0 0 24px;
 }
+
+@media screen and (max-width : 769px) {
+    .place__paragraph {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    margin: 0 0 24px;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .place__paragraph {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    margin: 0 16px 24px;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .place__paragraph {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    margin: 0 16px 24px;
+    }
+}

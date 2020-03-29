@@ -9,3 +9,29 @@ color: #FFFFFF;
 margin-left: 48px;
 max-width: 692px;
 }
+
+@media screen and (max-width : 376px) {
+    .intro__text {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    margin-left: 16px;
+    max-width: 343px;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .intro__text {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #FFFFFF;
+    margin-left: 16px;
+    max-width: 288px;
+    }
+}

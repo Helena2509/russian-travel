@@ -17,3 +17,29 @@
     transition-duration: 0.7s;
     transition-timing-function: linear;
 }
+
+@media screen and (max-width : 376px) {
+    .header__lang_en {
+        margin-right: 18px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 96.82%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    @media screen and (max-width : 321px) {
+        .header__lang_en {
+            margin-right: 18px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 96.82%;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+}

@@ -11,3 +11,24 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width : 769px) {
+
+    .header {
+        margin: 30px 24px 0;
+    }
+}
+
+@media screen and (max-width : 376px) {
+
+    .header {
+        margin: 30px 16px 0;
+    }
+}
+
+@media screen and (max-width : 321px) {
+
+    .header {
+        margin: 30px 16px 0;
+    }
+}

@@ -6,8 +6,22 @@ font-weight: normal;
 font-size: 18px;
 line-height: 26px;
 text-align: center;
-max-width: width: 413px;;
+max-width: 413px;;
 color: #FFFFFF;
 z-index: 1;
 margin: 0;
+}
+
+@media screen and (max-width : 769px) {
+    .cover__subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .cover__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

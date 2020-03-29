@@ -5,3 +5,31 @@
     grid-row-gap: 60px;
     margin-bottom: 60px;
 }
+
+@media screen and (max-width : 769px) {
+    .place {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        justify-content: space-around;
+        grid-row-gap: 28px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .place {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 1fr);
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .place {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 1fr);
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+}

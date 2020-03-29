@@ -2,3 +2,24 @@
     max-width: 100%;
     margin: 65px 48px 0;
 }
+
+@media screen and (max-width : 769px) {
+    .lead__images {
+        max-width: 100%;
+        margin: 65px 0 0;
+    }
+}
+
+@media screen and (max-width : 376px) {
+.lead__images {
+    max-width: 100%;
+    margin-top: 31px;
+}
+}
+
+@media screen and (max-width : 321px) {
+    .lead__images {
+        max-width: 100%;
+        margin-top: 31px;
+    }
+}

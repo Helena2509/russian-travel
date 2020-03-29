@@ -5,3 +5,33 @@
     grid-column-gap: 16px;
     margin: 0 48px;
 }
+
+@media screen and (max-width : 769px) {
+    .video_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 352px);
+        justify-content: center;
+        grid-column-gap: 16px;
+        margin: 0 24px;
+        }
+}
+
+@media screen and (max-width : 376px) {
+    .video_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 343px);
+        justify-content: center;
+        grid-column-gap: 16px;
+        margin: 0 16px;
+        }
+}
+
+@media screen and (max-width : 321px) {
+    .video_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 288px);
+        justify-content: center;
+        grid-column-gap: 16px;
+        margin: 0 16px;
+        }
+}
