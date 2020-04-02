@@ -1,0 +1,35 @@
+.video__subtitle {
+    font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 15px;
+color: #FFFFFF;
+position: absolute;
+top: 240px;
+left: 30px;
+text-decoration: none;
+}
+
+@media screen and (max-width : 769px) {
+    .video__subtitle {
+        font-size: 14px;
+        line-height: 15px;
+        top: 165px;
+        left: 25px;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .video__subtitle {
+        top: 157px;
+        left: 25px;
+    }
+}
+
+@media screen and (max-width : 321px) {
+    .video__subtitle {
+        top: 148px;
+        left: 25px;
+    }
+}

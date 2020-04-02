@@ -1,0 +1,31 @@
+.video__duration {
+    font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 13px;
+letter-spacing: 0.3em;
+color: #FFFFFF;
+position: absolute;
+text-decoration: none;
+top: 125px;
+left: 30px;
+}
+
+@media screen and (max-width : 769px) {
+    .video__duration {
+        top: 90px;
+        left: 25px;
+    }
+}
+
+@media screen and (max-width : 376px) {
+    .video__duration {
+        top: 70px;
+        left: 25px;
+    }
+}
+
+@media screen and (max-width : 321px) {
+
+}

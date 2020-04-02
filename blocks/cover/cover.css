@@ -1,16 +1,11 @@
 @import url(./__link/cover__link.css);
 
-@import url(./__overlay_black/cover__overlay_black.css);
+@import url(./overlay_black/overlay_black.css);
 
-@import url(./__subtitles/cover__subtitle.css);
+@import url(./__subtitle/cover__subtitle.css);
 
-@import url(./__subtitles/cover__subtitles.css);
+@import url(./__title/cover__title.css);
 
-@import url(./__titles/cover__titles.css);
-
-@import url(./__titles/cover__title.css);
-
-@import url(./-bg/cover-bg.css);
 
 .cover {
     min-width: 100%;
@@ -34,6 +29,22 @@
     transition-property: background-color;
     transition-duration: 0.7s;
     transition-timing-function: linear;
+}
+
+@media screen and (max-width : 769px) {
+    .cover {
+        min-width: 100%;
+        min-height: 500px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 48px;
+    }
 }
 
 @media screen and (max-width : 376px) {

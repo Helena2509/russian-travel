@@ -9,9 +9,7 @@
 @media screen and (max-width : 769px) {
     .video_container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, 352px);
-        justify-content: center;
-        grid-column-gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(343px, 352px));
         margin: 0 24px;
         }
 }
@@ -19,9 +17,7 @@
 @media screen and (max-width : 376px) {
     .video_container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, 343px);
-        justify-content: center;
-        grid-column-gap: 16px;
+        grid-template-columns: repeat(auto-fit, minmax(288px, 343px));
         margin: 0 16px;
         }
 }
@@ -30,8 +26,5 @@
     .video_container {
         display: grid;
         grid-template-columns: repeat(auto-fit, 288px);
-        justify-content: center;
-        grid-column-gap: 16px;
-        margin: 0 16px;
         }
 }

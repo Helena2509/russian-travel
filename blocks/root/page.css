@@ -5,6 +5,7 @@ html {
 .page {
     margin: 0 auto;
     max-width: 1024px;
+    min-width: 320px;
 }
 
 @media screen and (max-width : 769px) {

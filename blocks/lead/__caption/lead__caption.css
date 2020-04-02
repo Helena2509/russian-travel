@@ -1,5 +1,5 @@
 .lead__caption {
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -12,42 +12,18 @@
 
 @media screen and (max-width : 769px) {
     .lead__caption {
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 12px;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        color: #FFFFFF;
         margin-left: 24px;
     }
 }
 
 @media screen and (max-width : 376px) {
     .lead__caption {
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 12px;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        color: #FFFFFF;
         margin-left: 16px;
     }
 }
 
 @media screen and (max-width : 321px) {
     .lead__caption {
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 12px;
-        letter-spacing: 0.15em;
-        text-transform: uppercase;
-        color: #FFFFFF;
         margin-left: 16px;
     }
 }
