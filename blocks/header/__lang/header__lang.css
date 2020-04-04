@@ -9,6 +9,10 @@
     margin-top: 25px;
 }
 
+.header__lang:nth-child(1) {
+    margin-right: 18px;
+}
+
 .header__lang:hover {
     opacity: 0.7;
     transition-property: opacity;

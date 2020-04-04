@@ -1,6 +1,14 @@
 .lead__images {
     max-width: 100%;
-    margin: 65px 48px 0;
+    max-height: 554px;
+    margin: 65px 148px 0;
+}
+
+@media screen and (max-width : 1025px) {
+    .lead__images {
+        max-width: 100%;
+        margin: 65px 48px 0;
+    }
 }
 
 @media screen and (max-width : 769px) {
@@ -11,10 +19,10 @@
 }
 
 @media screen and (max-width : 376px) {
-.lead__images {
-    max-width: 100%;
-    margin-top: 31px;
-}
+    .lead__images {
+        max-width: 100%;
+        margin-top: 31px;
+    }
 }
 
 @media screen and (max-width : 321px) {
@@ -23,3 +31,4 @@
         margin-top: 31px;
     }
 }
+

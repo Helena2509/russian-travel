@@ -7,7 +7,14 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-left: 48px;
+    margin-left: 148px;
+}
+
+
+@media screen and (max-width : 1025px) {
+    .lead__caption{
+        margin-left: 48px;
+    }
 }
 
 @media screen and (max-width : 769px) {

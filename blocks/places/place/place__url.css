@@ -7,11 +7,11 @@
     text-decoration-line: underline;
     margin: 0;
     color: #FFFFFF;
-    }
+}
     
 .place__url:hover {
     opacity: 0.7;
     transition-property: opacity;
     transition-duration: 0.7s;
     transition-timing-function: linear;
-    }
+}

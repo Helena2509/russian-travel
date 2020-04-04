@@ -1,0 +1,11 @@
+@import url(./comment/comment.css);
+
+@import url(./comment/comment__author.css);
+
+@import url(./comment/comment__image.css);
+
+@import url(./comment/comment__qa.css);
+
+@import url(./comment/comment__quote.css);
+
+@import url(./__container/comments__container.css);

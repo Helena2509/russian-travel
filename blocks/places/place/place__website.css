@@ -3,14 +3,9 @@
     justify-items: start;
 }
 
-@media screen and (max-width : 376px) {
+@media screen and (max-width : 696px) {
     .place__website {
         display: none;
     }
 }
 
-@media screen and (max-width : 321px) {
-    .place__website {
-        display: none;
-    }
-}

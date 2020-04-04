@@ -4,9 +4,9 @@
     border-radius: 50%;
 }
 
-@media screen and (max-width : 769px) {
+@media screen and (max-width : 1023px) {
     .comment__image {
-    margin: 50px auto 0;
+        margin: 50px auto 0;
     }
 }
 

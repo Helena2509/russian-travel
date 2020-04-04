@@ -1,17 +1,23 @@
 @import url(./__copyright/footer__copyright.css);
 
-@import url(./__links/footer__link.css);
+@import url(./__link/footer__link.css);
+
+@import url(./__links/footer__links.css);
+
+@import url(./__container/footer__container.css);
+
 
 .footer {
     margin: 105px 48px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
 }
 
-@media screen and (max-width : 769px) {
+@media screen and (max-width : 1023px) {
     .footer {
-        margin: 105px 48px 0;
+        margin: 105px 24px 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -20,20 +26,10 @@
     }
 }
 
-@media screen and (max-width : 376px) {
+@media screen and (max-width : 767px) {
     .footer {
         margin: 64px 16px 0;
-        display: flex;
         flex-direction: column;
-        justify-content: start;
     }
 }
 
-@media screen and (max-width : 321px) {
-    .footer {
-        margin: 64px 16px 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-    }
-}

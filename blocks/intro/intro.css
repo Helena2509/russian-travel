@@ -1,4 +1,4 @@
-@import url(./__content_row/intro__content_row.css);
+@import url(./__content-row/intro__content-row.css);
 
 @import url(./__text/intro__text.css);
 
@@ -6,4 +6,4 @@
 
 @import url(./__texts/intro__texts.css);
 
-@import url(./__text_normal/intro__text_normal.css);
+@import url(./__text-normal/intro__text-normal.css);
