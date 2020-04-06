@@ -24,4 +24,6 @@
 
 @import url(../blocks/root/content/content-title.css);
 
+@import url(../blocks/root/overlay-black/overlay-black.css);
+
 @import url(../blocks/root/page.css);

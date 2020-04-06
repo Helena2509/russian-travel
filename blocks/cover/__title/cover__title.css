@@ -1,6 +1,8 @@
 .cover__title {
-    position: relative;
-    top: 10px;
+    position: absolute;
+    top: 274px;
+    left: 0;
+    right: 0;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -15,6 +17,7 @@
 @media screen and (max-width : 1025px) {
     .cover__title {
         max-width: 570px;
+        top: 211px;
     }
 }
 
@@ -23,30 +26,19 @@
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        text-align: center;
         max-width: 250px;
-        margin: 0 auto 0;
+        top: 185px;
     }
 }
 
 @media screen and (max-width : 376px) {
     .cover__title {
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 35px;
-        text-align: center;
-        max-width: 250px;
-        margin: 0 auto 0;
+        top: 104px;
     }
 }
 
 @media screen and (max-width : 321px) {
     .cover__title {
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 35px;
-        text-align: center;
-        max-width: 250px;
-        margin: 0 auto 0;
+        top: 64px;
     }
 }

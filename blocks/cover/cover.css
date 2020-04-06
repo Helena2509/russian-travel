@@ -1,14 +1,12 @@
 @import url(./__link/cover__link.css);
 
-@import url(./__overlay-black/cover__overlay-black.css);
-
 @import url(./__subtitle/cover__subtitle.css);
 
 @import url(./__title/cover__title.css);
 
 
 .cover {
-    min-height: 562px;
+    min-height: 594px;
     background-size: cover;
     background-position: center;
     background-image: url(../../images/Image.jpg);
@@ -22,26 +20,27 @@
 }
 
 
-@media screen and (max-width : 1023px) {
+@media screen and (max-width : 1025px) {
     .cover {
         min-width: 100%;
+        min-height: 562px;
         margin: 102px 0 0;
     }
 }
 
-@media screen and (max-width : 1023px) {
+
+@media screen and (max-width : 769px) {
     .cover {
         min-width: 100%;
         min-height: 500px;
-        margin-top: 48px;
+        margin: 48px 0 0;
     }
 }
 
-@media screen and (max-width : 767px) {
+@media screen and (max-width : 376px) {
     .cover {
         min-width: 100%;
         min-height: 272px;
-        margin-top: 48px;
     }
 }
 
@@ -49,6 +48,5 @@
     .cover {
         min-width: 100%;
         min-height: 216px;
-        margin-top: 48px;
     }
 }

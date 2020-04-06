@@ -1,4 +1,4 @@
-.cover__overlay-black {
+.overlay-black {
     position: absolute;
     top: 0;
     left: 0;
@@ -9,7 +9,7 @@
     transition: background-color linear .3s;
 }
 
-.cover__overlay-black:hover {
+.overlay-black:hover {
     opacity: 0.7;
     background-color: #2A2C2F;
     transition-property: opacity;
