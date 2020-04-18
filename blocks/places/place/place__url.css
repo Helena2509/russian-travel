@@ -10,7 +10,7 @@
 }
     
 .place__url:hover {
-    opacity: 0.7;
+    opacity: 0.8;
     transition-property: opacity;
     transition-duration: 0.7s;
     transition-timing-function: linear;
