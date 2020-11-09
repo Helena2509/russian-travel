@@ -9,8 +9,7 @@
 * Flexbox-верстка;
 * Гриды;
 * Псевдоклассы;
-* Адаптивная верстка;
-* ~~Божья помощь.~~
+* Адаптивная верстка.
 
 Ссылка на GitHub Pages: 
 #### https://helena2509.github.io/russian-travel/index.html
